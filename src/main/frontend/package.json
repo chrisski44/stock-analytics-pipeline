@@ -1,0 +1,22 @@
+{
+  "name": "stock-dashboard",
+  "version": "1.0.0",
+  "description": "Stock prices aggregator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "3.5.17",
+    "express": "^4.14.1",
+    "jquery": "^3.4.1",
+    "minimist": "^1.2.0",
+    "nvd3": "^1.8.6",
+    "redis": "^2.8.0",
+    "smoothie": "^1.35.0",
+    "socket.io": "^1.7.4"
+  }
+}
