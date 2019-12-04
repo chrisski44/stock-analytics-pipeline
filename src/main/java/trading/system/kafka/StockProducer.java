@@ -44,7 +44,7 @@ public class StockProducer {
         ObjectMapper objectMapper = new ObjectMapper();
 
         List<String> symbols = Arrays.asList("INTC", "BABA", "TSLA", "GOOG", "AMZN", "NFLX");
-        String apiKey = "6OM26BY8DXJBCFR4";
+        String apiKey = "";
         int timeout = 3000;
         AlphaVantageConnector apiConnector = new AlphaVantageConnector(apiKey, timeout);
         TimeSeries timeSeries = new TimeSeries(apiConnector);
